@@ -10,7 +10,7 @@
   CoderDojo の活動状況を把握する際などにご活用ください。
 
   %h3{style: "margin-top: 60px;"} 📊 推移グラフ
-  %div{align: 'center'}
+  %div{align: 'center', class: 'stats-graph'}
     = high_chart_globals(@high_charts_globals)
     %br
     = high_chart("annual_dojos",           @annual_dojos_chart)
@@ -20,7 +20,7 @@
     = high_chart("annual_participants",    @annual_participants_chart)
 
   %h3{style: "margin-top: 60px;"} 📝 推移テーブル
-  %div{align: 'center'}
+  %div{align: 'center', id: 'transition-table'}
     %i *集計対象のみ
     %table{style: 'margin-top: 4px;'}
       %thead

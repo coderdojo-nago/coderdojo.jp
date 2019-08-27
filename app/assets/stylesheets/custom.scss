@@ -667,3 +667,33 @@ body>footer a:hover {
 #accordion a:hover {
   text-decoration: none;
 }
+
+@media only screen and (max-width:720px) {
+  .stats-graph {
+    transform: scale(0.8);
+  }
+  #annual_dojos {
+    transform: translateY(-130px);
+  }
+  #annual_participants {
+    transform: translateY(130px);
+  }
+  #transition-table{
+    transform: scale(0.8);
+  }
+}
+
+@media only screen and (max-width:560px) {
+  .stats-graph {
+    transform: scale(0.5) translateX(-120px);
+  }
+  #annual_dojos {
+    transform: translateY(-300px);
+  }
+  #annual_participants {
+    transform: translateY(300px);
+  }
+  #transition-table{
+    transform: scale(0.65) translateX(-55px);
+  }
+}
