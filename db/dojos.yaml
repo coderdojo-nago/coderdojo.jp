@@ -3981,12 +3981,24 @@
   prefecture_id: 47
   logo: "/img/dojos/nago.webp"
   url: https://coderdojo-nago.connpass.com/
-  description: 名護市で月2回開催
+  description: 名護市で毎月開催
   tags:
   - Scratch
   - toio
   - micro:bit
-  - Drone
+  - 3Dプリンター
+- id: xxx
+  order: 'xxxxxx'
+  created_at: '2025-03-08'
+  name: 恩納@OIST
+  prefecture_id: 47
+  logo: "/img/dojos/default.webp"
+  url: https://coderdojo-nago.connpass.com/
+  description: 恩納村のOIST（沖縄科学技術大学院大学）で毎月開催
+  tags:
+  - Scratch
+  - toio
+  - micro:bit
   - 3Dプリンター
 - id: 155
   order: '472131'
